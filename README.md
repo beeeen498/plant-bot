@@ -4,7 +4,7 @@ Plant Bot is an AI garden helper I'm building for my home garden. It tracks my p
 
 🚧 Work in progress - currently in early setup.
 
-Live: plant-bot-iota.vercel.app
+Live: https://plant-bot-iota.vercel.app
 
 ## Stack
 

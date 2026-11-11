@@ -6,7 +6,7 @@ Target: full-stack web developer roles with AI knowledge.
 
 ## 📍 Current focus
 
-- Phase 0: Setup — write CLAUDE.md and README.md
+- Phase 1: Backend core — start working with branches + pull requests
 
 ---
 
@@ -24,8 +24,8 @@ Target: full-stack web developer roles with AI knowledge.
 - [x] Fold `apps/web` into the main workspace (one lockfile)
 - [x] Deploy to Vercel (Root Directory = apps/web, Node 22.x)
 - [x] Create the Supabase project (user_id + privacy rules from day one)
-- [ ] Move TODO.md into the repo; write CLAUDE.md and README.md
-- [ ] Link the GitHub repo to the Claude project
+- [x] Move TODO.md into the repo; write CLAUDE.md and README.md
+- [x] Link the GitHub repo to the Claude project
 - [ ] Fill in the plant spreadsheet (name, variety, ground or pot, gets rain, planting date, fertilizing/sulfur intervals) — can wait until the Phase 1 tables
 
 ## Phase 1: Backend core
@@ -158,4 +158,4 @@ Target: full-stack web developer roles with AI knowledge.
 
 ## 📝 Session log
 
-- 2026-11-10 — Checked Mac tools (Homebrew, Git, Node via nvm, pnpm, VS Code). Fixed pnpm to use the Homebrew copy. Changed plan to web-first. Built the monorepo root (Git, package.json, pnpm-workspace.yaml, .gitignore), created @plant-bot/shared and @plant-bot/web (Next.js 16), folded web into the workspace (one lockfile), pushed to GitHub, deployed to Vercel. Learned: monorepo purpose, workspaces, lockfiles, install-script security (allowBuilds), scoped package names, hydration warnings from browser extensions, Conventional Commits.
+- 2026-11-10 — Checked Mac tools (Homebrew, Git, Node via nvm, pnpm, VS Code). Fixed pnpm to use the Homebrew copy. Changed plan to web-first. Built the monorepo root (Git, package.json, pnpm-workspace.yaml, .gitignore), created @plant-bot/shared and @plant-bot/web (Next.js 16), folded web into the workspace (one lockfile), pushed to GitHub, deployed to Vercel. Learned: monorepo purpose, workspaces, lockfiles, install-script security (allowBuilds), scoped package names, hydration warnings from browser extensions, Conventional Commits. Then created the Supabase project; env vars in .env.local and Vercel (publishable key as Config); added README, .env.example, .nvmrc, CLAUDE.md; linked the repo to the Claude project. Learned: environment variables, NEXT*PUBLIC* prefix, publishable vs secret keys, .gitignore exceptions (!).
