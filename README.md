@@ -16,5 +16,5 @@ Live: plant-bot-iota.vercel.app
 
 1. `git clone https://github.com/beeeen498/plant-bot.git && cd plant-bot`
 2. `pnpm install`
-3. Create `apps/web/.env.local` with your Supabase URL and publishable key
+3. `cp apps/web/.env.example apps/web/.env.local`, then fill in your Supabase URL and publishable key
 4. `pnpm --filter @plant-bot/web dev`
