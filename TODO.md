@@ -6,7 +6,7 @@ Target: full-stack web developer roles with AI knowledge.
 
 ## 📍 Current focus
 
-- Phase 1: Backend core — start working with branches + pull requests
+- Phase 1: Backend core — learning the branch and PR flow, then the first tables.
 
 ---
 
